@@ -1,0 +1,5 @@
+applications:
+- name: first-sapcp-app
+  path: ./target/first-cf-application-0.0.1.jar
+  buildpack: java_buildpack
+  host: sample-sapcp
